@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 1440px;
+	height: 60px;
+	background: #eeeeee;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+.nav-img {
+	display: flex;
+	flex-direction: row;
+}
+.logo-name {
+	font-family: "Inter", sans-serif;
+	font-size: 36px;
+	margin-left: 39px;
+    color: #000000;
+}
+.cart-img {
+	width: 42.24px;
+}
+.like-img {
+	width: 36.82px;
+	margin-left: 7.76px;
+}
+.user-img {
+	width: 37px;
+	margin-right: 39px;
+	margin-left: 8.18px;
+}
+a {
+	text-decoration: none;
+}
